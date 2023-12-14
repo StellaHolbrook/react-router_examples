@@ -32,7 +32,7 @@ async function createServer() {
     let htmlFileToLoad;
 
     if (isProduction) {
-      htmlFileToLoad = path.join("dist", appDirectory, "index.html");
+      htmlFileToLoad = path.join(appDirectory, "index.html");
     } else {
       htmlFileToLoad = path.join(appDirectory, "index.html");
     }

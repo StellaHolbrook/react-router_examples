@@ -61,7 +61,17 @@ function Home() {
 function About() {
   return (
     <div>
-      <p>This is the about page.</p>
+       <MyButton/>
+
     </div>
   );
+}
+
+
+function MyButton() {
+    return (
+        <button>
+            I'm a button
+        </button>
+    );
 }
